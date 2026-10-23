@@ -240,6 +240,12 @@ table.simple th{color:var(--muted);font-weight:700;font-size:.82rem}
 .check input{width:20px;height:20px}
 .yes{color:var(--success);font-weight:700}.no{color:var(--danger);font-weight:700}.maybe{color:var(--accent-strong);font-weight:700}
 #printArea{display:none}
+/* توقيع الشركة أسفل التطبيق */
+.credit{text-align:center;margin:28px 0 6px}
+.credit a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:.85rem;text-decoration:none;box-shadow:var(--shadow)}
+.credit a:hover{border-color:var(--accent)}
+.credit b{color:var(--primary);font-weight:800}
+.credit svg{width:20px;height:20px;color:#1faa53;flex:none}
 
 @media print{
   body{background:#fff;color:#000}
@@ -362,6 +368,13 @@ table.simple th{color:var(--muted);font-weight:700;font-size:.82rem}
 
   <section id="view-lecture" class="view hidden" aria-label="المحاضرة"></section>
   <section id="view-flash" class="view hidden" aria-label="جلسة البطاقات"></section>
+
+  <footer class="credit">
+    <a href="https://wa.me/249912243850?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%AA%D9%88%D8%A7%D8%B5%D9%84%D8%AA%20%D9%85%D8%B9%D9%83%D9%85%20%D9%85%D9%86%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20%C2%AB%D8%AE%D9%84%D8%A7%D8%B5%D8%A9%C2%BB" target="_blank" rel="noopener" aria-label="تواصل مع shasha tech solutions عبر واتساب">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.3-.6-.5-1-1.2-1.3-1.8-.1-.2 0-.4.1-.5l.4-.4.3-.5v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.8.8-1 1.9-.8 2.9.3 1.2 1 2.4 1.9 3.3 1.4 1.4 3 2.3 4.8 2.7.8.2 1.7.1 2.4-.3.5-.3.8-.8.9-1.4.1-.3 0-.5-.2-.6z"/></svg>
+      <span>تصميم وتطوير <b dir="ltr">shasha tech solutions</b></span>
+    </a>
+  </footer>
 </main>
 
 <nav class="bottom-nav" aria-label="التنقل الرئيسي">
